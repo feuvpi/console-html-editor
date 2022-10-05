@@ -25,6 +25,7 @@ public static class Editor
         } while (Console.ReadKey().Key != ConsoleKey.Escape);
         Console.WriteLine("--------------");
         Console.WriteLine("Save file? Y or N");
+        Viewer.Show(file.ToString());
     }
 }
 
